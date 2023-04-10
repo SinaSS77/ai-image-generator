@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "dev": "nodemon index"
+    "dev": "nodemon index",
+    "css": "node-sass --include-path scss path/to/file.scss path/to/output.css"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "openai": "^3.2.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "sass": "^1.61.0"
   }
 }
